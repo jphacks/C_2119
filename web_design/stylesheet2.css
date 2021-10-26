@@ -4,7 +4,7 @@
 }
 
 .wrapper{
-    font-family:Arial Black;
+    font-family:Futura,YuGothic;
     background-image:url(../assets/room_not_color.png);
     /*height:100vh;*/
     background-size:cover;
@@ -12,31 +12,33 @@
 }
 
 .left{
-    width:400px;
+    width:480px;
     height:100vh;
     text-align:center;
-    background-color:#FCF9EF;
+    background-color:#FFFDF5;
 }
 
 .title{
-    font-size:44px;
+    font-size:50px;
     margin-bottom:0px;
     padding-top:44vh;
     padding-bottom:0px;
+    color:#140900;
 }
 
 .subtitle{
     font-size:24px;
+    color:#3F1F0A;
 }
 
 .subtitle span{
-    border-bottom:solid 2.5px #6f5a1f;
-    padding-bottom:10px;
+    border-bottom:solid 2.5px #514438;
+    padding-bottom:17px;
 }
 
 .uploadButton{
-    height:95px;
+    height:99px;
     cursor:pointer;
-    padding:25px;
+    margin-top:37px;
 }
 

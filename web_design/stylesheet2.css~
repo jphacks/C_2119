@@ -1,37 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 .wrapper{
     font-family:Arial Black;
     background-image:url(../assets/room_not_color.png);
-    height:100vh;
-    /*background-size:covor;*/
+    /*height:100vh;*/
+    background-size:cover;
+    /*background-repeat:no-repeat;*/
 }
 
 .left{
-    width:350px;
+    width:400px;
     height:100vh;
     text-align:center;
     background-color:#FCF9EF;
-
-
 }
 
 .title{
-    font-size:36px;
-    margin-bottom:10px;
-    pedding-bottom:0px;
+    font-size:44px;
+    margin-bottom:0px;
+    padding-top:44vh;
+    padding-bottom:0px;
 }
 
 .subtitle{
-    font-size:20px;
+    font-size:24px;
 }
 
 .subtitle span{
-    border-bottom:solid 3px #6f5a1f;
-    pedding-bottom:10px;
+    border-bottom:solid 2.5px #6f5a1f;
+    padding-bottom:10px;
 }
 
 .uploadButton{
-    height:80px;
+    height:95px;
     cursor:pointer;
-    margin:10px;
+    padding:25px;
 }
 
