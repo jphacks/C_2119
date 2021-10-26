@@ -36,9 +36,23 @@
     padding-bottom:17px;
 }
 
-.uploadButton{
-    height:99px;
-    cursor:pointer;
-    margin-top:37px;
+#upload input{
+    /*デフォルトのinputは出力なし*/
+    display: none;
 }
 
+#upload div{
+    /* サイズを設定*/
+    height: 99px;
+    /*width: 150px;*/
+    margin-top:37px;
+    /* ボタンにする画像を設定*/
+    background: url(../assets/uploadButtonDoor.png) center center / contain no-repeat;
+    /* マウスカーソルを当てた時、ポインタに設定*/
+    cursor: pointer;
+}
+
+/*アップロードできる時ボタンの色を変えたければ画像を変更
+#upload:hover{
+    background: url(../assets/uploadButtonDoor.png) center center / contain no-repeat;
+}*/
