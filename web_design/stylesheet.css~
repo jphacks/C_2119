@@ -1,0 +1,27 @@
+body{
+    float:left;
+    background-color:#FCF9EF;
+    font-family:Arial Black;
+}
+
+.title{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.room_img{
+    float:right;
+    width:80%;
+}
+
+.uploadButton{
+    height:60px;
+    cursor:pointer;
+}
+
+
