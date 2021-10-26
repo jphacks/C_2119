@@ -1,0 +1,39 @@
+body{
+    float:left;
+    font-family:Arial Black;
+    background-image:url(../assets/room_not_color.png)
+}
+
+.left{
+    width:350px;
+    height:100vh;
+    text-align:center;
+    background-color:#FCF9EF;
+    /*display:table;*/
+}
+
+.title{
+    font-size:36px;
+    margin:10px 0px;
+    pedding:0px;
+    /*display:table-cell;
+    vertical-align:middle;*/
+}
+
+.subtitle{
+    font-size:20px;
+    margin:10px 0px;
+    pedding:0px;
+}
+
+.room_img{
+    float:right;
+    /*width:100%;*/
+    height:100vh;
+}
+
+.uploadButton{
+    height:60px;
+    cursor:pointer;
+}
+
