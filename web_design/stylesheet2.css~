@@ -35,7 +35,16 @@
     border-bottom:solid 2.5px #7A6346;
     padding-bottom:17px;
 }
+/*サブタイトルの下線を丸めようとしたけれど無理だった
+.subtitle span:after {
+    background-color: #7A6346; 
+    border-radius:1.25px; 
+    content: "";
+    display: block;
+    height: 2.5px; 
+}*/
 
+/*アップロードボタンの設定*/
 #upload input{
     /*デフォルトのinputは出力なし*/
     display: none;
@@ -52,7 +61,7 @@
     cursor: pointer;
 }
 
-/*アップロードできる時ボタンの色を変えたければ画像を変更
-#upload:hover{
-    background: url(../assets/uploadButtonDoor.png) center center / contain no-repeat;
-}*/
+/*アップロードできる時ボタンの色を変えたければ画像を変更*/
+#upload div:hover{
+    background: url(../assets/uploadButtonDoor_hover.png) center center / contain no-repeat;
+}
