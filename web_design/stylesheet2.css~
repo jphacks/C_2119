@@ -1,7 +1,8 @@
-body{
-    float:left;
+.wrapper{
     font-family:Arial Black;
-    background-image:url(../assets/room_not_color.png)
+    background-image:url(../assets/room_not_color.png);
+    height:100vh;
+    /*background-size:covor;*/
 }
 
 .left{
@@ -9,31 +10,28 @@ body{
     height:100vh;
     text-align:center;
     background-color:#FCF9EF;
-    /*display:table;*/
+
+
 }
 
 .title{
     font-size:36px;
-    margin:10px 0px;
-    pedding:0px;
-    /*display:table-cell;
-    vertical-align:middle;*/
+    margin-bottom:10px;
+    pedding-bottom:0px;
 }
 
 .subtitle{
     font-size:20px;
-    margin:10px 0px;
-    pedding:0px;
 }
 
-.room_img{
-    float:right;
-    /*width:100%;*/
-    height:100vh;
+.subtitle span{
+    border-bottom:solid 3px #6f5a1f;
+    pedding-bottom:10px;
 }
 
 .uploadButton{
-    height:60px;
+    height:80px;
     cursor:pointer;
+    margin:10px;
 }
 
