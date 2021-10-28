@@ -54,7 +54,7 @@
 #upload div{
     /* サイズを設定*/
     height: 99px;
-    /*width: 150px;*/
+    /*width: 240px;*/
     margin-top:37px;
     /* ボタンにする画像を設定*/
     background: url(../assets/uploadButtonDoor.png) center center / contain no-repeat;

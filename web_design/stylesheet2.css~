@@ -13,6 +13,7 @@
 
 .left{
     width:480px;
+    min-height:700px;
     height:100vh;
     text-align:center;
     background-color:#FFFDF5;
