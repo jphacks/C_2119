@@ -6,8 +6,12 @@ using Newtonsoft.Json;
 
 public class CreateWall : MonoBehaviour
 {
+    public CharacterController controller;
+
+    public float speed = 12f;
+
     //[JsonObject]はお試しでjsonのデータ欲しくて書いてるだけなので本来はいらない
-    [JsonObject("wall")]
+    /*[JsonObject("wall")]
     public class Wall
     {
         [JsonProperty("x_w")]
@@ -19,10 +23,12 @@ public class CreateWall : MonoBehaviour
         [JsonProperty("length_w")]
         public float length_w { get; set; }
     }
+    */
 
     // Start is called before the first frame update
     void Start()
     {
+        /*
         //お試しにjson形式のデータが欲しかったから作ってるだけで本来は以下のコードはいらない
         List<Wall> walls = new List<Wall>();
         walls.Add(new Wall(){x_w=2.5f, y_w=3.5f, width_w=0.2f, length_w=5.2f});
@@ -41,11 +47,16 @@ public class CreateWall : MonoBehaviour
             GameObject wall1 = Instantiate(resource_w,new Vector3(Walls[r].x_w,0,Walls[r].y_w),Quaternion.identity);
             wall1.transform.localScale = new Vector3(Walls[r].width_w, 2.0f, Walls[r].length_w);
         }
+        */
     }
 
     // Update is called once per frame
     void Update()
     {
+        float x = Input.GetAxis("Horizontal");
+        float z= Input.GetAxis("Vertical");
+        Vector3 move = transform.right * x + transform.forward * z;
+        controller.Move(move * speed * Time.deltaTime);
         
     }
 }
