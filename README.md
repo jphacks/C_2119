@@ -1,9 +1,11 @@
 # サンプル（プロダクト名）
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
+![img_1.png](assets/mainVisual.png)
 
 ## 製品概要
 ### 背景(製品開発のきっかけ、課題等）
+
+
 ### 製品説明（具体的な製品の説明）
 ### 特長
 ####1. 特長1
