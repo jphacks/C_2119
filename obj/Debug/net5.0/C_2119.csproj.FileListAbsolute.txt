@@ -1,0 +1,15 @@
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/C_2119.deps.json
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/C_2119.runtimeconfig.json
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/C_2119.runtimeconfig.dev.json
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/C_2119.dll
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/ref/C_2119.dll
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/bin/Debug/net5.0/C_2119.pdb
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.csproj.AssemblyReference.cache
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.AssemblyInfoInputs.cache
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.AssemblyInfo.cs
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.csproj.CoreCompileInputs.cache
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.dll
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/ref/C_2119.dll
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.pdb
+/Users/yuzuki.t/Documents/coding/JPHACKS/C_2119/obj/Debug/net5.0/C_2119.genruntimeconfig.cache

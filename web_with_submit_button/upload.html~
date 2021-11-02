@@ -12,7 +12,7 @@
       <h1 class="title">AT Home</h1>
       <h2 class="subtitle"><span>間取り</span>図からＶＲ内覧</h2>
       <form method="POST" enctype="multipart/form-data" id="upload">
-        <input type="file" id="file_upload">
+        <input type="file">
         <button type="submit"></button>
       </form>
     </div>

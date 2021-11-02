@@ -49,9 +49,11 @@
 /*アップロードボタンの設定*/
 #upload input{
   display: block;
-  margin-left: 120px;
+  margin-left: 12vw;
   margin-top: 30px;
+
 }
+
 
 #upload div{
   /* サイズを設定*/
@@ -82,6 +84,7 @@
   background: url(images/uploadButtonDoor_hover.png) center center / contain no-repeat;
 }
 
+/*
 #upload p label{
   display: none;
-}
+}*/
